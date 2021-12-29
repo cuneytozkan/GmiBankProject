@@ -1,199 +1,22 @@
-[
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "TC User cannot login with invalid SSN validating the error message",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 4,
-            "name": "User on the home page \"homepage_url\"",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "User clicks menu icon",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 986500,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "User navigates to registraion page",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-19T23:03:45.357Z",
-        "line": 52,
-        "name": "TC_0203 MobilePhone nujber cannot be of any chars nor spec char \"-\"",
-        "description": "",
-        "id": "us-002-\"system-should-not-allow-anyone-to-register-with-invakid-cretianls\";tc-0203-mobilephone-nujber-cannot-be-of-any-chars-nor-spec-char-\"-\";;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 49,
-            "name": "User provides a onvalid Mobile Phone NUmber as \"-55-555-6663\" and validates invalid mobile phone with a faid message as \"Your mobile phone number is invalid\" or \"translation-not-found[Your mobile phone number is required]\"",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@invalidMobilePhone"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "TC User cannot login with invalid SSN validating the error message",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 4,
-            "name": "User on the home page \"homepage_url\"",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "User clicks menu icon",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "User navigates to registraion page",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-19T23:03:45.490Z",
-        "line": 53,
-        "name": "TC_0203 MobilePhone nujber cannot be of any chars nor spec char \"-\"",
-        "description": "",
-        "id": "us-002-\"system-should-not-allow-anyone-to-register-with-invakid-cretianls\";tc-0203-mobilephone-nujber-cannot-be-of-any-chars-nor-spec-char-\"-\";;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 999700,
-              "status": "skipped"
-            },
-            "line": 49,
-            "name": "User provides a onvalid Mobile Phone NUmber as \"255-555-666-\" and validates invalid mobile phone with a faid message as \"Your mobile phone number is invalid\" or \"translation-not-found[Your mobile phone number is required]\"",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@invalidMobilePhone"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "TC User cannot login with invalid SSN validating the error message",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 4,
-            "name": "User on the home page \"homepage_url\"",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "User clicks menu icon",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 174400,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "User navigates to registraion page",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-19T23:03:45.501Z",
-        "line": 54,
-        "name": "TC_0203 MobilePhone nujber cannot be of any chars nor spec char \"-\"",
-        "description": "",
-        "id": "us-002-\"system-should-not-allow-anyone-to-register-with-invakid-cretianls\";tc-0203-mobilephone-nujber-cannot-be-of-any-chars-nor-spec-char-\"-\";;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 49,
-            "name": "User provides a onvalid Mobile Phone NUmber as \"123-152-\" and validates invalid mobile phone with a faid message as \"Your mobile phone number is invalid\" or \"translation-not-found[Your mobile phone number is required]\"",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@invalidMobilePhone"
-          }
-        ]
-      }
-    ],
-    "name": "US_002 \"System should not allow anyone to register with invakid cretianls\"",
-    "description": "",
-    "id": "us-002-\"system-should-not-allow-anyone-to-register-with-invakid-cretianls\"",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_002_Registration_Negative.feature",
-    "tags": []
-  }
-]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.299">
+    <testcase classname="US_001 Positive Registration with valid credentials" name="Register new users with faker class" time="0.08">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given User on the home page "homepage_url"..................................undefined
+Then User clicks menu icon..................................................skipped
+Given User navigates to registraion page....................................skipped
+Then User enters ssn number as ""...........................................skipped
+Then User enters firstname as ""............................................skipped
+Then User enters lastname as "".............................................skipped
+Then User provides adress as "".............................................skipped
+Then User provides mobilephone as ""........................................skipped
+Then User provides a username as "".........................................skipped
+Then User Provides email id as ""...........................................skipped
+Then User provides the password as "".......................................skipped
+Then User confirms the new password ""......................................skipped
+Then User Clicks on Register button.........................................skipped
+Then User sees the success as ""............................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
