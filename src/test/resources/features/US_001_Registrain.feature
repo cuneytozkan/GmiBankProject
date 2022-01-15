@@ -1,8 +1,5 @@
 Feature: US_001 Positive Registration with valid credentials
 
-  Background:
-    Given User on the home page "homepage_url"
-    Then User clicks menu icon
 
     @registrationwithconcretevalues
 #    Scenario: TC_001 Success registration with valid credentials
@@ -23,6 +20,8 @@ Feature: US_001 Positive Registration with valid credentials
 
       @registerNewUserUI
     Scenario Outline: Register new users with faker class
+      Given User on the home page "homepage_url"
+      Then User clicks menu icon
       Given User navigates to registraion page
       Then User enters ssn number as "<SSN>"
       Then User enters firstname as "<Firstname>"

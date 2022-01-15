@@ -135,6 +135,12 @@ public class Driver {
             Thread.sleep(1000 * secs);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }catch (NoSuchElementException e){
+            e.printStackTrace();
+        }catch(StaleElementReferenceException e){
+            e.printStackTrace();
+        }catch(Exception e){
+            e.printStackTrace();
         }
     }
 

@@ -1,10 +1,10 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "",
+        "line": 4,
+        "name": "User go to the gmi bank url",
         "description": "",
         "type": "background",
         "keyword": "Background",
@@ -13,155 +13,140 @@
             "result": {
               "status": "undefined"
             },
-            "line": 4,
+            "line": 5,
             "name": "User on the home page \"homepage_url\"",
             "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 999900,
               "status": "skipped"
             },
-            "line": 5,
+            "line": 6,
             "name": "User clicks menu icon",
             "match": {},
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-12-29T23:15:17.961Z",
-        "line": 41,
-        "name": "Register new users with faker class",
-        "description": "",
-        "id": "us-001-positive-registration-with-valid-credentials;register-new-users-with-faker-class;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+          },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 26,
+            "line": 7,
             "name": "User navigates to registraion page",
             "match": {},
             "keyword": "Given "
           },
           {
             "result": {
+              "duration": 720400,
               "status": "skipped"
             },
-            "line": 27,
-            "name": "User enters ssn number as \"\"",
+            "line": 8,
+            "name": "Click on New Password textbox",
             "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 992800,
-              "status": "skipped"
-            },
-            "line": 28,
-            "name": "User enters firstname as \"\"",
-            "match": {},
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 29,
-            "name": "User enters lastname as \"\"",
+            "line": 9,
+            "name": "Assert that strenght bar is red",
             "match": {},
             "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-13T15:17:01.855Z",
+        "line": 12,
+        "name": "There should be at least one lowercase char for stronger password and see the level chart change accordingly",
+        "description": "",
+        "id": "registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;there-should-be-at-least-one-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 599400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Enter a password with one uppercase letter",
+            "match": {},
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 30,
-            "name": "User provides adress as \"\"",
+            "line": 14,
+            "name": "Observe that strenght bar is yellow",
             "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 999200,
-              "status": "skipped"
-            },
-            "line": 31,
-            "name": "User provides mobilephone as \"\"",
-            "match": {},
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 32,
-            "name": "User provides a username as \"\"",
+            "line": 15,
+            "name": "Enter one lowercase letter to password test box",
             "match": {},
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 33,
-            "name": "User Provides email id as \"\"",
+            "line": 16,
+            "name": "Strength Bar must be green",
             "match": {},
-            "keyword": "Then "
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click on password confirmation textbox",
+            "match": {},
+            "keyword": "And "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 34,
-            "name": "User provides the password as \"\"",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 35,
-            "name": "User confirms the new password \"\"",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 36,
-            "name": "User Clicks on Register button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "User sees the success as \"\"",
+            "line": 18,
+            "name": "Copy new password text box value to new password confirmation texbox",
             "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@registerNewUserUI"
+            "name": "@US03pwdR"
+          },
+          {
+            "name": "@US03pwdR01"
           }
         ]
       }
     ],
-    "name": "US_001 Positive Registration with valid credentials",
+    "name": "Registration page should restrict password usage to a secure and high level passcode",
     "description": "",
-    "id": "us-001-positive-registration-with-valid-credentials",
+    "id": "registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_001_Registrain.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/US_003_Registration_Password.feature",
+    "tags": [
+      {
+        "name": "@US03pwdR",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

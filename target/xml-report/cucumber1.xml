@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.299">
-    <testcase classname="US_001 Positive Registration with valid credentials" name="Register new users with faker class" time="0.08">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.317">
+    <testcase classname="Registration page should restrict password usage to a secure and high level passcode" name="There should be at least one lowercase char for stronger password and see the level chart change accordingly" time="0.079">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given User on the home page "homepage_url"..................................undefined
 Then User clicks menu icon..................................................skipped
 Given User navigates to registraion page....................................skipped
-Then User enters ssn number as ""...........................................skipped
-Then User enters firstname as ""............................................skipped
-Then User enters lastname as "".............................................skipped
-Then User provides adress as "".............................................skipped
-Then User provides mobilephone as ""........................................skipped
-Then User provides a username as "".........................................skipped
-Then User Provides email id as ""...........................................skipped
-Then User provides the password as "".......................................skipped
-Then User confirms the new password ""......................................skipped
-Then User Clicks on Register button.........................................skipped
-Then User sees the success as ""............................................skipped
+And Click on New Password textbox...........................................skipped
+Then Assert that strenght bar is red........................................skipped
+And Enter a password with one uppercase letter..............................skipped
+And Observe that strenght bar is yellow.....................................skipped
+And Enter one lowercase letter to password test box.........................skipped
+And Strength Bar must be green..............................................skipped
+And Click on password confirmation textbox..................................skipped
+Then Copy new password text box value to new password confirmation texbox...skipped
 ]]>
         </failure>
     </testcase>

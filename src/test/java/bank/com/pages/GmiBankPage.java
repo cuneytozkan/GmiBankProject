@@ -58,6 +58,19 @@ public class GmiBankPage {
     @FindBy(xpath = "//*[contains(text(),'mobile phone number')]")
     public WebElement registrationMobilePhoneNumberFeedBackMessage;
 
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
+    public WebElement passwordStrengthRedBar;
+
+    @FindBy(xpath = "//*[@id='strengthBar']/li[2]")
+    public WebElement passwordStrengthBrownBar;
+
+    @FindBy(xpath = "//*[@id='strengthBar']/li[3]")
+    public WebElement passwordStrengthYellowBar;
+
+    @FindBy(xpath = "//*[@id='strengthBar']/li[4]")
+    public WebElement passwordStrengthGreenBar;
+
+
 
 
 
