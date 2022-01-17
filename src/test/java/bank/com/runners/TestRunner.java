@@ -46,7 +46,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags="@US03pwdR",
+        tags="@LoginPageValid",
 
 
         //tags="@istediginiz tag", TEstNG de gordugumuz group gibi calisir

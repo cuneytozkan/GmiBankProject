@@ -70,6 +70,23 @@ public class GmiBankPage {
     @FindBy(xpath = "//*[@id='strengthBar']/li[4]")
     public WebElement passwordStrengthGreenBar;
 
+    @FindBy(xpath = "//span[text()='Sign in']")
+    public WebElement loginPageIcon;
+
+    @FindBy(xpath = "//input[@id='username']")
+    public WebElement loginPageUserNameTextBox;
+
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement loginPagePasswordTextBox;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement signInButton;
+
+    @FindBy(xpath = "//button[@class='btn btn-secondary']")
+    public WebElement logInPageCancelButton;
+
+    @FindBy(xpath = "(//a[@class='dropdown-toggle nav-link'])[3]")
+    public WebElement LogInVisibleUserName;
 
 
 

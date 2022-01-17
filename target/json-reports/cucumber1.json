@@ -1,10 +1,10 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 4,
-        "name": "User go to the gmi bank url",
+        "line": 3,
+        "name": "",
         "description": "",
         "type": "background",
         "keyword": "Background",
@@ -13,7 +13,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 5,
+            "line": 4,
             "name": "User on the home page \"homepage_url\"",
             "match": {},
             "keyword": "Given "
@@ -22,57 +22,28 @@
             "result": {
               "status": "skipped"
             },
-            "line": 6,
+            "line": 5,
             "name": "User clicks menu icon",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "User navigates to registraion page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 720400,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "Click on New Password textbox",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "Assert that strenght bar is red",
             "match": {},
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-01-13T15:17:01.855Z",
-        "line": 12,
-        "name": "There should be at least one lowercase char for stronger password and see the level chart change accordingly",
+        "start_timestamp": "2022-01-15T14:45:11.766Z",
+        "line": 8,
+        "name": "Login page should accessible with valid credentials",
         "description": "",
-        "id": "registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode;there-should-be-at-least-one-lowercase-char-for-stronger-password-and-see-the-level-chart-change-accordingly",
+        "id": "login-page-should-accessible-with-valid-credentials;login-page-should-accessible-with-valid-credentials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 599400,
               "status": "skipped"
             },
-            "line": 13,
-            "name": "Enter a password with one uppercase letter",
+            "line": 9,
+            "name": "User navigates to login page",
             "match": {},
             "keyword": "And "
           },
@@ -80,8 +51,8 @@
             "result": {
               "status": "skipped"
             },
-            "line": 14,
-            "name": "Observe that strenght bar is yellow",
+            "line": 10,
+            "name": "There should be a valid username and password validating the success message to login",
             "match": {},
             "keyword": "And "
           },
@@ -89,64 +60,24 @@
             "result": {
               "status": "skipped"
             },
-            "line": 15,
-            "name": "Enter one lowercase letter to password test box",
+            "line": 11,
+            "name": "There should be an option to cancel login",
             "match": {},
             "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
-            "name": "Strength Bar must be green",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 718900,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "Click on password confirmation textbox",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "name": "Copy new password text box value to new password confirmation texbox",
-            "match": {},
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US03pwdR"
-          },
-          {
-            "name": "@US03pwdR01"
+            "name": "@LoginPageValid"
           }
         ]
       }
     ],
-    "name": "Registration page should restrict password usage to a secure and high level passcode",
+    "name": "Login page should accessible with valid credentials",
     "description": "",
-    "id": "registration-page-should-restrict-password-usage-to-a-secure-and-high-level-passcode",
+    "id": "login-page-should-accessible-with-valid-credentials",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_003_Registration_Password.feature",
-    "tags": [
-      {
-        "name": "@US03pwdR",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/US_004)LoginPageWithValidCreditinals.feature",
+    "tags": []
   }
 ]

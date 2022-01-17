@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.317">
-    <testcase classname="Registration page should restrict password usage to a secure and high level passcode" name="There should be at least one lowercase char for stronger password and see the level chart change accordingly" time="0.079">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.362">
+    <testcase classname="Login page should accessible with valid credentials" name="Login page should accessible with valid credentials" time="0.086">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given User on the home page "homepage_url"..................................undefined
 Then User clicks menu icon..................................................skipped
-Given User navigates to registraion page....................................skipped
-And Click on New Password textbox...........................................skipped
-Then Assert that strenght bar is red........................................skipped
-And Enter a password with one uppercase letter..............................skipped
-And Observe that strenght bar is yellow.....................................skipped
-And Enter one lowercase letter to password test box.........................skipped
-And Strength Bar must be green..............................................skipped
-And Click on password confirmation textbox..................................skipped
-Then Copy new password text box value to new password confirmation texbox...skipped
+And User navigates to login page............................................skipped
+And There should be a valid username and password validating the success message to login.skipped
+And There should be an option to cancel login...............................skipped
 ]]>
         </failure>
     </testcase>
