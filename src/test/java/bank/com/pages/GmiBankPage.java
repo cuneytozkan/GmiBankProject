@@ -88,6 +88,9 @@ public class GmiBankPage {
     @FindBy(xpath = "(//a[@class='dropdown-toggle nav-link'])[3]")
     public WebElement LogInVisibleUserName;
 
+    @FindBy(xpath = "//div[@class='alert alert-danger fade show']")
+    public WebElement loginPageFailedMessage;
+
 
 
 

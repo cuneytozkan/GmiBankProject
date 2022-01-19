@@ -35,6 +35,7 @@ public class US_004_LoginPageWithValidCreditinals {
     @And("user click on siginButton")
     public void userClickOnSiginButton() {
         gmiBankPage.signInButton.click();
+        Driver.wait(3);
 
     }
 
